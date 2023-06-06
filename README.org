@@ -1,0 +1,25 @@
+#+TITLE: GenSeq - Gendhing Sequencer
+
+Render gamelan/kepatihan notation to multitrack MIDI/WAV file.  
+
+*Note: This project is still in early development. Notes are still being hardcoded. I created this little script to generate audio for data augmentation used in music source separation task. I also learned that cmake is pain in ass to manage.
+
+** List of available instruments:
+    - Balungan
+    - Bonang
+    - Kempul/Gong
+    - Kethuk/Kenong
+
+** Requirement
+- Sox : for merging generated wav files
+- Soundfiles: https://prodigalsounds.com/blog/2020/12/04/gamelan-sfz-instrument-definitions/
+
+** Usage
+1. Define notes in =app/main.cpp= file.
+2. Define soundfiles in =app/main.cpp= file.
+3. Compile this project using =build-release.sh= file.
+4. Outputs will appear in =output= folder.
+
+** TODOS
+*** TODO Parse note from PDF
+*** TODO More robust bonang barung generation

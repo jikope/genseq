@@ -1,0 +1,9 @@
+[submodule "extern/spdlog"]
+	path = extern/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "extern/midifile"]
+	path = extern/midifile
+	url = https://github.com/craigsapp/midifile
+[submodule "extern/sfizz"]
+	path = extern/sfizz
+	url = https://github.com/sfztools/sfizz.git
